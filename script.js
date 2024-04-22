@@ -14,7 +14,7 @@ const search = document.querySelector('.search');
 const btn = document.querySelector('.submit');
 const cities = document.querySelectorAll('.city');
 const precipitaOutput = document.querySelector('.precipitation');
-let cityInput = "Pune";
+let cityInput = "Pune Maharashtra";
 
 cities.forEach((city)=>{
     city.addEventListener('click', (e)=>{
